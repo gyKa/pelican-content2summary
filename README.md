@@ -1,5 +1,7 @@
 # content2summary
 
+[![Build Status](https://travis-ci.org/gyKa/pelican-content2summary.svg)](https://travis-ci.org/gyKa/pelican-content2summary)
+
 Simply converts article's content to a short summary.
 
 ## Requirements
