@@ -1,6 +1,7 @@
 from pelican import signals
 from bs4 import BeautifulSoup
 
+
 def content2summary(generator):
     max_length = generator.settings.get('SUMMARY_MAX_LENGTH')
 
@@ -9,6 +10,7 @@ def content2summary(generator):
             summary = ' '.join(article.content.split()[:max_length]) + ' ...'
             soup = BeautifulSoup(summary, "html.parser")
             article.metadata['summary'] = soup.get_text()
+
 
 def register():
     """ Register plugin """

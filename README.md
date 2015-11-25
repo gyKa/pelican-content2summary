@@ -6,7 +6,13 @@ Simply converts article's content to a short summary.
 
 * BeautifulSoup
 
-`pip install BeautifulSoup4`
+`pip install -r requirements.txt`
+
+## Development requirements
+
+* PEP8
+
+`pip install -r dev-requirements.txt`
 
 ## Installation
 
